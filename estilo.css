@@ -1,0 +1,130 @@
+body {
+	background-color: #272727;
+}
+h1{
+
+	color: white;
+	display: inline;
+	position: absolute;
+	left: 50%;
+}
+.texto {
+	position: absolute;
+	display: inline;
+	height: 100%;
+	width: 25%;
+	left: 10px
+}
+.colage {
+	
+	display: inline-block;
+	width: 25%;
+	position: absolute;
+	height: 50%;
+	bottom: 33%;
+	right: 43%;
+	box-sizing: border-box;
+	
+
+}
+p {
+	color: white;
+
+}
+h2 {
+	color: white;
+}
+
+.sub-portada {
+	background: #434343;
+	display: block;
+	height: 35px;
+	position: relative;
+
+}
+ .portada {
+	background: #5463ec;
+	display: block;
+	height: 100px;
+}
+
+h2 {
+	display: inline;
+	position: absolute;
+	top: 100px
+}
+ 
+ .perfil {
+ 	position: absolute;
+ 	width: 70PX;
+ 	box-sizing: border-box;
+ 	display: inline-block;
+ 	margin: 15PX 0PX;
+ 	padding-left: 8px;
+ 	box-shadow: 5px 5px 5px black;
+ 	border-radius: 50% black;
+} 
+
+
+
+
+.contenedor-2 { 
+	position: absolute; 
+    top: 40%;
+	left: 75%;
+	bottom: 15%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px;
+
+
+}
+.contenedor-2:hover .tarjeta-1 {
+	transform: translate(0px, 0px, 0px ) scale(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)skew(0DEG 0DEG);
+	transform-style: preserve-3d;
+
+
+}
+ .tarjeta-1 {
+ 	width: 170PX;
+ 	height: 170px;
+ 	background-color: #2E2929;
+ 	cursor: pointer;
+ 	transition: all 0.4s;
+ 	position: 0px 20px 0px 50px;
+
+ }
+
+ .contenedor-2:hover .tarjeta-1:hover {
+ 	transform: translate3d(0PX, 0px, 0px) scale3d( 1.1, 1.1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0DEG, 0DEG);
+ 	transform-style: preserve-3d;
+ 	box-shadow: 10px 10px 10px #5463ec;
+
+}
+ /*
+display: inline-block;
+	width: 25%;
+	position: absolute;
+	height: 50%;
+	bottom: 33%;
+	right: 43%;
+	box-sizing: border-box;
+	
+		background: red;
+	position: absolute;
+	height: 50%;
+	width: 35%;
+	display: inline;
+    top: 590px;
+    box-sizing: border-box;
+    padding: 0px 20px 10px 10px;
+    right: 730px;
+.video {
+	display: inline-block;
+	width: 25%;
+	position: absolute;
+	height: 50%;
+	bottom: 33%;
+	right: 43%;
+	box-sizing: border-box;

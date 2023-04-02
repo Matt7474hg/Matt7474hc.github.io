@@ -1,0 +1,44 @@
+.perfil {
+	position: absolute;
+	display: inline-block;
+	width: 10px;
+
+
+}
+
+
+
+
+
+h1{ 
+	color: white;
+	display: inline;
+	position: absolute;
+	left: 50%;
+}
+h2 {
+	color: white;
+}
+.sub-portada {
+	background: #434343;
+	display: block;
+	height: 35px;
+	position: relative;
+
+}
+.portada {
+	background: #5463ec;
+	display: block;
+	height: 100px;
+}
+
+h2 {
+	display: inline;
+	position: absolute;
+	top: 100px
+}
+ 
+
+body {
+	background-color: #272727;
+}
